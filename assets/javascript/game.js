@@ -1,4 +1,3 @@
-
 var currentQuestion; 
 var correctAnswer; 
 var incorrectAnswer; 
@@ -56,12 +55,12 @@ var triviaQuestions = [
 
 
 $('#startBtn').on('click', function(){
-	// $(this).hide();
+	$(this).hide();
 	newGame();
 });
 
 $('#startOverBtn').on('click', function(){
-	// $(this).hide();
+	$(this).hide();
 	newGame();
 });
 
